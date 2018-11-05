@@ -4,7 +4,7 @@ body{
 
 section{
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     border: 2px dotted brown;
     border-radius: 10px;
@@ -23,8 +23,8 @@ header{
     text-align: center;
     font-size: 2rem;
     margin: auto;
-    background-color:grey;
-    color: blue;
+    background-color:burlywood;
+    color: brown;
     border-radius: 10px;
     margin-bottom: 5px;
 }
