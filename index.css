@@ -1,0 +1,60 @@
+body{
+    background-color:lightcyan;
+}
+
+section{
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px dotted brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+article{
+    flex:1;
+    height: 300px;
+    border: 2px solid violet;
+    margin: 5px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+header{
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    background-color:grey;
+    color: blue;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width :600px ){
+    article{
+    flex:1;
+    height: 200px;
+    border: 2px solid lightblue;
+}
+section{
+    display: flex;   
+    flex-direction: column; 
+}
+}
+
+.articleHead{
+    background-color:skyblue;
+}
+
+.articleHead span{
+    font-size: 1.2em;   
+   margin: auto;
+   color: white;
+}
+.fa-band-aid{
+    color: forestgreen;
+    font-size : 30px;
+}
+
+.fa-angry{
+    color: red;
+    font-size : 30px;
+}
