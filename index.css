@@ -25,6 +25,7 @@ article{
     margin: 5px;    
     border-radius: 10px;
     flex-wrap: wrap;
+    box-shadow: 2px 5px blueviolet;
 }
 header{
     text-align: center;
