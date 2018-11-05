@@ -2,6 +2,10 @@ body{
     background-color:lightcyan;
 }
 
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 section{
     display: flex; 
     justify-content: center;
@@ -11,19 +15,22 @@ section{
     padding: 5px;
 }
 
+.articleBody{
+ padding: 5px;
+}
+
 article{
     flex:1;
-    height: 300px;
     border: 2px solid violet;
-    margin: 5px;
-    max-width: 250px;
+    margin: 5px;    
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 header{
     text-align: center;
     font-size: 2rem;
     margin: auto;
-    background-color:burlywood;
+    background-color:lightskyblue ;
     color: brown;
     border-radius: 10px;
     margin-bottom: 5px;
